@@ -66,7 +66,7 @@ else
             }
         else
             {
-                console.log("Purchase higher than 2 items  are not allowed for minors");
+                console.log("Purchase not allowed for minors.");
                 quantity = 0;
                 totalPrice = 0;
             }
@@ -74,5 +74,4 @@ else
 
 console.log('Product: ' + productName);
 console.log('Quantity: ' + quantity);
-console.log('Total Price: R$' + totalPrice.toFixed(2));
 console.log('Final price: R$' + finalPrice.toFixed(2));
